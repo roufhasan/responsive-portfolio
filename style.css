@@ -1,0 +1,334 @@
+:root {
+  --background-color: #2d3047;
+  --secondary-color: #fff;
+  --warning-color: #e8c73c;
+  --oldgold-color: #e1ba16;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--background-color);
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 90vw;
+  margin: 0px auto;
+  margin-top: 15px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+  color: var(--secondary-color);
+  font-size: 20px;
+  cursor: pointer;
+}
+.code {
+  color: var(--warning-color);
+}
+.menu a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: all 0.3s;
+}
+.menu a:hover {
+  color: var(--oldgold-color);
+}
+ul {
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+}
+li {
+  margin: 0px 15px;
+}
+.social-icons a {
+  color: var(--oldgold-color);
+  font-size: 20px;
+  transition: all 0.3s;
+}
+.social-icons a:hover {
+  color: var(--secondary-color);
+}
+.fa-brands {
+  margin: 0px 4px;
+}
+/* Hero Section Started */
+.hero-section {
+  display: flex;
+  margin-top: 60px;
+  height: 69vh;
+}
+/* Hero Left Started */
+.hero-left {
+  flex-basis: 65%;
+}
+.hero-left h1 {
+  color: #fff;
+  font-size: 75px;
+  font-weight: 500;
+  margin-top: 80px;
+  margin-bottom: 4px;
+}
+.hero-left h1 span {
+  color: var(--warning-color);
+  letter-spacing: 3px;
+}
+.hero-left h3 {
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+  font-size: 27px;
+}
+.hero-left h3 span {
+  color: var(--warning-color);
+}
+.hero-left p {
+  color: #d9d9d9;
+  font-size: 15px;
+  margin-bottom: 72px;
+}
+.hero-left .button button {
+  border: none;
+  border-radius: 19px;
+  background: var(--oldgold-color);
+  transition: linear 0.3s;
+}
+.hero-left .button button:hover {
+  background: var(--secondary-color);
+  transform: scale(1.05);
+}
+.hero-left button a {
+  font-size: 22px;
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+  padding: 17px 34px;
+}
+/* Hero Right Started */
+.profile {
+  margin: 28px 9px;
+}
+.shape1 {
+  position: relative;
+  bottom: 324px;
+  right: 334px;
+  z-index: -1;
+}
+.shape2 {
+  position: relative;
+  right: 124px;
+  bottom: 24px;
+  z-index: -1;
+}
+/* About Section Started */
+.about {
+  display: flex;
+  margin-top: 8rem;
+}
+.about-left {
+  flex-basis: 47%;
+}
+.about-right {
+  flex-basis: 53%;
+  background: var(--secondary-color);
+}
+.about-right h2 {
+  text-align: center;
+  margin-top: 32px;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 7px;
+}
+.title-underline {
+  width: 98px;
+  height: 4px;
+  background: #ccbc3b;
+  margin: 0px auto;
+}
+.about-right p {
+  margin-left: 170px;
+  margin-top: 50px;
+  line-height: 1.95;
+  color: #393939;
+}
+.about-right .description-2 {
+  margin-top: 22px;
+}
+/* About Section Ended */
+/* Skill Section Started */
+.skill {
+  background: var(--secondary-color);
+  margin-top: 7.6rem;
+  border-radius: 10px;
+}
+.skill h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding-top: 32px;
+  margin-bottom: 7px;
+}
+.skill-logo {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.skill-logo img {
+  width: 80px;
+  height: 90px;
+  object-fit: cover;
+}
+.skill-name {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 12px;
+  padding-bottom: 32px;
+}
+.html {
+  margin-left: 32px;
+}
+.css {
+  margin-left: 57px;
+}
+.javascript {
+  margin-left: 34px;
+}
+/* Skill Section Ended */
+/* Contact Section Started */
+.contact {
+  margin-top: 7.6rem;
+}
+.contact-des {
+  color: var(--secondary-color);
+  text-align: center;
+}
+.contact-des h2 {
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+.contact-des p {
+  text-align: center;
+  font-size: 14px;
+  color: #ddd;
+  margin: 15px 0px;
+  line-height: 1.8;
+}
+/* Form & Communication Contact Started */
+.contact-des2 {
+  display: flex;
+  margin: 5rem auto;
+}
+/* Contact Left Started */
+.contact-left {
+  flex-basis: 50%;
+  text-align: center;
+}
+.email {
+  margin: 5rem 0rem;
+}
+.phone {
+  margin-top: 6rem;
+}
+.fa-solid {
+  color: var(--secondary-color);
+  font-size: 31px;
+  position: relative;
+  right: 6rem;
+  top: 1.8rem;
+}
+.contact-left .fa-brands {
+  color: var(--secondary-color);
+  font-size: 34px;
+  position: relative;
+  right: 5.25rem;
+  top: 1.8rem;
+}
+.contact-left p {
+  display: inline-block;
+  color: var(--secondary-color);
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.contact-left a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 32px;
+}
+/* Contact Right Started */
+.contact-right {
+  background: var(--secondary-color);
+  flex-basis: 50%;
+}
+.contact-right p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+.contact-right .title-underline {
+  height: 3px;
+  margin-bottom: 35px;
+}
+form {
+  margin-left: 40px;
+}
+label {
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+  display: inline-block;
+  color: #4d4d4d;
+}
+.contact-right form input {
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 60%;
+  outline: none;
+  margin-bottom: 23px;
+  font-size: 18px;
+}
+#messages {
+  border: none;
+  border: 1px solid black;
+  outline: none;
+  font-size: 17px;
+  padding: 13px 20px;
+}
+.contact-right .button {
+  margin-top: 47px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.contact-right .button button {
+  border: none;
+  border-radius: 6px;
+  background: var(--oldgold-color);
+  transition: linear 0.3s;
+}
+.contact-right .button button a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+  padding: 9px 23px;
+}
+/* Contact Section Ended */
+/* Footer */
+footer p {
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+/* Utilites */
+.font-18 {
+  font-size: 18px;
+}
